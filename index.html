@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <title>Document</title>
+    <link rel="stylesheet" href="estilos.css">
+    <style>
+         .container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr); 
+            grid-template-rows: repeat(2, 100px); 
+            gap: 10px; 
+        }
+
+        .item {
+            background-color: lightcoral;
+            border: 1px solid #333;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 18px;
+             }
+        body {
+            background: linear-gradient(to right, rgba(0, 0.5, 1, 1), transparent 200%); text-align: center;}
+            
+
+        .boton1, .boton2, .boton3 {
+            display: inline-block;
+            color: rgb(22, 22, 22);
+            text-decoration: none;
+            border: none;
+            cursor: pointer;
+            font-size: 10px;
+            padding: 10px 20px;
+            background-color: #ffffff;
+            border-radius: 30px;
+            position: relative;
+            text-align: center;} 
+
+            .AUTORES {
+            font-size: 20px;
+            text-align: center; 
+            margin-top: 60px; 
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+
+        .TITULO-BOTON {
+            display: block;
+            margin: 50px;
+            color: #d1d1c7;
+            font-size: 36px;
+            text-align: center;
+            font-weight: bold;
+            margin-top: 10px;
+            padding: 30px;}
+            
+      .TITULO-BOTON:hover{ background-color: blueviolet;}
+
+
+        .cuadro {
+            background: linear-gradient(to right, rgba(0, 0.5, 1, 1), transparent 150%);
+            width: 1000px;
+            height:400px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(236, 232, 232, 0.1);
+            padding: 20px;
+            margin-top: 100px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .boton1 { top: 30px; text-align: center; }
+        .boton2 { top: 30px; text-align: center; }
+        .boton3 { top: 30px; text-align: center; }
+
+</style>
+</head>
+<body>
+    
+     
+    <a href="causas.html" class="boton1">CAUSAS</a>
+    <a href="tipos.html" class="boton2">TIPOS</a>
+    <a href="tratamientos.html" class="boton3">TRATAMIENTOS</a>
+
+    <div class="cuadro">
+    <a href="index.html" class="TITULO-BOTON"> QUE ES EL INSOMNIO</a>
+    <p style= "color: #ffffff;"> El dia de hoy trataremos uno de los transtornos mas comunes ocurrridos en las personas, este es el insomnio. El insomnio es un transtorno o perturbacion del sueño en el cual se vuelve muy dificil conciliar o mantenerlo, teniendo asi una mala calidad del sueño aunque se tengan las condiciones correctas, esto puede generar a largo plazo cansancio o agotamiento mental afectando en el dia a dia de la persona que lo padece. </p>
+    <p style= "color:#ffffff;" class="AUTORES"></p>
+</div>
+
+</body>
+</html>
